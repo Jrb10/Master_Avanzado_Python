@@ -1,3 +1,4 @@
 Probando github
-1-- En vsc -- instalar la extension GitHub Pull Requests and Issues
-2-- Instalar git en windows -- http://git-scm.com/download/win
+1-- Instalar git en windows -- http://git-scm.com/download/win
+2-- En vsc -- instalar la extension GitHub Pull Requests and Issues
+3-- En vsc clonar repositorio y elegir donde quieres almacenarlo
