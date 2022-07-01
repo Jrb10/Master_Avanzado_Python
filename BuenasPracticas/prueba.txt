@@ -1,6 +1,9 @@
 Probando github
 1-- Instalar git en windows -- http://git-scm.com/download/win
-2-- En vsc -- instalar la extension GitHub Pull Requests and Issues
+2-- En vsc -- instalar la extension:
+    GitHub Pull Requests and Issues
+    Git History
+    GitLens
 3-- Configurar git en git bash -- gmail y nombre --- Paso 5
 4-- En vsc clonar repositorio y elegir donde quieres almacenarlo
 5-- Para poder hacer el primer commit primero hacer:
@@ -15,3 +18,4 @@ Probando github
     ... -- Push  o sincronizar cambios   
 7-- DESCARGAR Y ACTUALIZAR CAMBIOS 
     -- Pull -- sincronizar cambios
+
