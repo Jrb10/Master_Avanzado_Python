@@ -19,3 +19,4 @@ Probando github
 7-- DESCARGAR Y ACTUALIZAR CAMBIOS 
     -- Pull -- sincronizar cambios
 
+8-- DESDE LA TERMINAL (VSC)
