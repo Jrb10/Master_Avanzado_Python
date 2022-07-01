@@ -18,5 +18,20 @@ Probando github
     ... -- Push  o sincronizar cambios   
 7-- DESCARGAR Y ACTUALIZAR CAMBIOS 
     -- Pull -- sincronizar cambios
-
 8-- DESDE LA TERMINAL (VSC)
+    1-Subir Cambios Hechos en VSC
+        git status -- ver si hay cambios
+        git add prueba.txt -- si haces cambios solo de uno
+        git status
+        git add . -- si hacemos cambios para todos
+        git commit -m "mensaje del cambio"
+        git push -- para subirlo
+    2-Descargar Cambios Desde VSC
+        git pull -- para descargar los cambios
+    3-Crear una rama(branch)
+        git branch -- ver las ramas que hay
+        git branch "mirama" -- crear una nueva
+        git chechout mirama -- cambiar a la rama creada
+        git chechout -b "mirama2" -- crear y cambiar a esa rama
+        git chechout -d "mirama" -- eliminar una rama
+        git merge " "-- unir las ramas
