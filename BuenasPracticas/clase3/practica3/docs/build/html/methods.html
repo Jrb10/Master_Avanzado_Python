@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Metodos &#8212; documentación de Documentacion practica3 - 1.0</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/nature.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Test_Metodos" href="test_methods.html" />
+    <link rel="prev" title="Welcome to Documentacion practica3!" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             accesskey="I">índice</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="right" >
+          <a href="test_methods.html" title="Test_Metodos"
+             accesskey="N">siguiente</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Documentacion practica3!"
+             accesskey="P">anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">documentación de Documentacion practica3 - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><strong>Metodos</strong></a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="module-methods">
+<span id="metodos"></span><h1><strong>Metodos</strong><a class="headerlink" href="#module-methods" title="Permalink to this heading">¶</a></h1>
+<p>Este script contiene diferentes funciones</p>
+<section id="funciones">
+<h2><em>Funciones</em><a class="headerlink" href="#funciones" title="Permalink to this heading">¶</a></h2>
+<dl class="simple">
+<dt>addName:</dt><dd><p>Funcion para añadir un nombre</p>
+</dd>
+<dt>addNumber:</dt><dd><p>Funcion para comprobar el numero de digitos del telefono</p>
+</dd>
+<dt>checkMoney:</dt><dd><p>Metodo para mostrar el saldo de una persona</p>
+</dd>
+</dl>
+<section id="ejemplo">
+<h3><em>Ejemplo</em><a class="headerlink" href="#ejemplo" title="Permalink to this heading">¶</a></h3>
+<p>&gt;&gt;&gt;addName(“Jonathan”)</p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="methods.InvalidName">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">methods.</span></span><span class="sig-name descname"><span class="pre">InvalidName</span></span><a class="headerlink" href="#methods.InvalidName" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Clase que trata el error de nombre repetido</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>Exception (InvalidName): Error si ya existe el nombre</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="methods.InvalidQuery">
+<em class="property"><span class="pre">exception</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">methods.</span></span><span class="sig-name descname"><span class="pre">InvalidQuery</span></span><a class="headerlink" href="#methods.InvalidQuery" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Clase que trata el error de busqueda no valida</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>Exception (InvalidQuery): Consulta no valida, no existe la persona</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="methods.addName">
+<span class="sig-prename descclassname"><span class="pre">methods.</span></span><span class="sig-name descname"><span class="pre">addName</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#methods.addName" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Funcion que añade un nombre a la lista</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>name</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Nombre que se pasa como argumento</p>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>TypeError</strong> – Error si no se pasa una cadena</p></li>
+<li><p><a class="reference internal" href="#methods.InvalidName" title="methods.InvalidName"><strong>InvalidName</strong></a> – Error si ya existe el nombre</p></li>
+</ul>
+</dd>
+<dt class="field-odd">Devuelve</dt>
+<dd class="field-odd"><p>Devuelve la cadena con el nombre añadido</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="methods.addNumber">
+<span class="sig-prename descclassname"><span class="pre">methods.</span></span><span class="sig-name descname"><span class="pre">addNumber</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">number</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#methods.addNumber" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Funcion que comprueba que el telefono que insertas tiene 9 digitos</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>number</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – Numero que se pasa como argumento</p>
+</dd>
+<dt class="field-even">Devuelve</dt>
+<dd class="field-even"><p>Devuelve True si es correcto</p>
+</dd>
+<dt class="field-odd">Tipo del valor devuelto</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="methods.checkMoney">
+<span class="sig-prename descclassname"><span class="pre">methods.</span></span><span class="sig-name descname"><span class="pre">checkMoney</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#methods.checkMoney" title="Enlazar permanentemente con esta definición">¶</a></dt>
+<dd><p>Funcion que te muestra el saldo que tiene la persona</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parámetros</dt>
+<dd class="field-odd"><p><strong>name</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – Nombre de la persona que se pasa como argumento</p>
+</dd>
+<dt class="field-even">Muestra</dt>
+<dd class="field-even"><p><a class="reference internal" href="#methods.InvalidQuery" title="methods.InvalidQuery"><strong>InvalidQuery</strong></a> – Consulta no valida, no existe la persona</p>
+</dd>
+<dt class="field-odd">Devuelve</dt>
+<dd class="field-odd"><p>Devuelve el saldo de la persona</p>
+</dd>
+<dt class="field-even">Tipo del valor devuelto</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">Tabla de contenido</a></h3>
+    <ul>
+<li><a class="reference internal" href="#"><strong>Metodos</strong></a><ul>
+<li><a class="reference internal" href="#funciones"><em>Funciones</em></a><ul>
+<li><a class="reference internal" href="#ejemplo"><em>Ejemplo</em></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <div>
+    <h4>Tema anterior</h4>
+    <p class="topless"><a href="index.html"
+                          title="capítulo anterior">Welcome to Documentacion practica3!</a></p>
+  </div>
+  <div>
+    <h4>Próximo tema</h4>
+    <p class="topless"><a href="test_methods.html"
+                          title="próximo capítulo"><strong>Test_Metodos</strong></a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>Esta página</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/methods.rst.txt"
+            rel="nofollow">Mostrar el código</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Búsqueda rápida</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Ir a" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navegación</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="Índice General"
+             >índice</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Índice de Módulos Python"
+             >módulos</a> |</li>
+        <li class="right" >
+          <a href="test_methods.html" title="Test_Metodos"
+             >siguiente</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to Documentacion practica3!"
+             >anterior</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">documentación de Documentacion practica3 - 1.0</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href=""><strong>Metodos</strong></a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Derechos de autor 2022, Jonathan.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.0.2.
+    </div>
+  </body>
+</html>
