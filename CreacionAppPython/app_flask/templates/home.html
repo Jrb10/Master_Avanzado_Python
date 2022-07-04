@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>APP JONATHAN RIOJA BLANCO</title> 
+    <style>
+      h2{text-align: center;}
+      body{background-color: rgb(0, 140, 255);}
+      img { display: block; margin: auto; }
+      nav li{ display:inline-block;
+              width:10%;
+              padding:20px 60px;
+              text-align:center;}
+
+    </style>
+</head>
+ 
+<body>
+  <div>
+    {% block content %}
+    <h2> Bienvenido a la app </h2> 
+    <nav>
+      <ul >
+        <li><a href="/iris/"><h3> GET </h3> </a></li>
+        <li><h3> PUT </h3></li>
+        <li><h3> UPDATE </h3></li>
+        <li><h3> DELETE </h3></li>
+        <li><h3> PREDICION </h3></li>
+      </ul>
+    </nav>
+    <img src="./static/images/iris.png"  width="500" height="500">
+    {% endblock %}
+  </div>
+    
+</body>
+ 
+</html>
