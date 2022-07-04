@@ -1,4 +1,4 @@
-# *INSTALACIONES
+# INSTALACIONES
 
 ```
 pip install dash
@@ -29,7 +29,7 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
-# * FUNCION DE LOS 2 ARCHIVOS
+# FUNCIÓN DE LOS 2 ARCHIVOS
 
 Adjunto el csv descargado de : https://data.nasdaq.com/databases/WIKIP/documentation
 He escogido algunas empresas al azar
